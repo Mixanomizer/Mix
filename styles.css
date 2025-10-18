@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* {
+    padding: 0;
+}*/
+
+body {
+    background-color: #e4ecfd;
+    color: #0f141e;
+
+    font: normal 16px 'Roboto', sans-serif;
+    }
+
+    a {
+        color: #0f141e;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: blue;
+    }
+
+    a:visited {
+        color: green;
+    }
+
+     .avatar {
+        border-radius: 28px;
+        box-shadow: 4px 4px 14px #0f141e;
+    }
+
+    .info {
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    .infotext {
+        margin-left: 40px;
+    }
+
+    .info p {
+        color: #212121;
+        margin: 0;
+        font-style: italic;
+        /*text-decoration: line-through;
+       text-transform: capitalize;
+       letter-spacing: 15px;
+       word-spacing: 20px;*/
+    }
+    /*.target {
+        background: red;
+        padding: 15px;
+        border: 5px solid blue;
+        border-bottom-style: dotted;
+        border-top-width: 15px;
+        margin: 20px;
+    }*/
+
+    .container {
+        max-width: 750px;
+        margin: auto;
+        padding-top: 30px;
+    }
+    /*.box-model div {
+        background: black;
+        height: 200px;
+        width: 25%;
+        float: left;
+        box-sizing: border-box;
+        border: 4px solid red;
+    }*/
+
+    .card {
+        padding: 15px 20px;
+        background: lightgrey;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    .bg-yellow {
+        background: #fff9dc;
+    }
+
+    .bg-green {
+        background: #e5ffe7;
+    }
+
+    .bg-red {
+        background: #ffe5e5;
+    }
+    .card h2 {
+        margin-bottom: 8px;
+    }
+
+    .list {
+        padding: 0 20;
+    }
+
+.list li {
+    color: #305492;
+    margin-bottom: 4px;
+}
+
+.table {
+    width: 100%;
+    /*border-spacing: 0px;*/
+    border-collapse: collapse;
+}
+
+.table td {
+    margin: 10px;
+    padding: 3px;
+    border: 2px solid #0f141e;  
+}
+
+.table tr {
+    margin: 0px;
+}
+
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+color: #303233;
+margin: 5px 0px;
+}
+
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    font-family: inherit;
+}
+
+.position {
+    border: 4px solid #0f141e;
+    margin-top: 40px;
+    padding: 5px;
+}
+
+.box {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #4bf60d;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+}
+
+@media (max-width:700px) {
+    .info{
+        display: block;
+    }
+}

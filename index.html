@@ -3,99 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <title>Mixanomizer</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
 </head>
-<body>
-    <table cellspacing="15">
-        <tr>
-            <td><img src="avatar.jpg" width="200"></td>
-            <td><h1>Михаил Митронин</h1>
-    <p>Я начал изучать  <strong>WEB</strong></p>
-    <p><em>Уволился 2 недели назад</em></p></td>
-        </tr>
-    </table>
-    
+<body class="container">
+        <div class="info">
+            <img src="avatar.jpg" width="200" class="avatar"/>
+            <div class="infotext">
+                <h1>Михаил Митронин</h1>
+
+                <p>Я начал изучать  <strong>WEB</strong></p>
+                <p>Уволился 2 недели назад</p>
+
+                <h4>Мои цели</h4>
+                    Создать портфолио на Я услугах
+                    Создать портфолио мастера на авито:
+                    <a href=""
+                        target="_blank">Мой авито</a>
+                    Выучить HTML
+            </div>
+        </div>
+
+    <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+            <li>Компьютерные игры</li>
+            <li>Спортзал</li>       
+            <li>Фотошоп</li>
+            <li>Монтаж видео</li>
+        </ol>
+    </div><samp></samp>
+
         
+    <div class="card bg-green">
+        <h2>Образование</h2>
+        <table class="table">
+            <tr>
+                <th>Институт</th>
+                <th>Программа обучения</th>
+                <th>Период обучения</th>
+                <th>Результат</th>
+            </tr>
+            <tr>
+                <td>ИНМТ</td>
+                <td>Организация машиностроительного производства</td>
+                <td>2019-2023</td>
+                <td>Диплом +переквалификация на инвестиции</td>
+            </tr>
+            <tr>
+                <td>ИЕНИМ</td>
+                <td>Компьютерные науки</td>
+                <td>2023-2024</td>
+                <td>2 месяца обучения, не понравилось</td>
+            </tr>
+            <tr>
+                <td>СТИ</td>
+                <td>Экспертиза и инвестиции в строительстве</td>
+                <td>2024-по настояшее время</td>
+                <td>1ый семестр закрыт на 4/5, на 2ом семестре разочарование</td>
+            </tr>
+        </table>
+    </div>
 
-    <hr size="4" color="#375073">
-    <h2>Мои цели</h2>
-    <ul>
-        <li>Создать портфолио на Я услугах</li>
-        <li>Создать портфолио мастера на авито:</li>
-        <a href="https://www.avito.ru/ekaterinburg/
-            predlozheniya_uslug/remont_stiralnyh_mashin_
-            chastnyy_master_7390554930"
-            target="_blank">Мой авито</a>
-        <li>Выучить HTML</li>
-    </ul>
+    <div class="card bg-red">  
+        <div class="contact">
+            <h2>Обратная связь</h2>    
+            <div class="form-group"> 
+            <form action="/">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div> 
 
-    <hr size="3" color="#375073">
+             <div class="form-group"> 
+                <label for="email">Ваш email:</label>
+                <input type="text" id="email" placeholder="Введите email">
+            </div>
 
-    <h2>Мои хобби</h2>
-    <ol>
-        <li>Компьютерные игры</li>
-        <li>Спортзал</li>       
-        <li>Фотошоп</li>
-        <li>Монтаж видео</li>
-    </ol>
 
-    
-    <hr size="3" color="#375073">
+             <div class="form-group"> 
+                <label for="age">Вам есть 18 лет?</label>
+                <input type="checkbox" id="age" placeholder="ДА">
+            </div>
+            
+                <input type="submit">
+            </form>
+        </div>
+    </div>
 
-    <h2>Образование</h2>
-    <table>
-        <tr>
-            <th>Институт</th>
-            <th>Программа обучения</th>
-            <th>Период обучения</th>
-            <th>Результат</th>
-        </tr>
-        <tr>
-            <td>ИНМТ</td>
-            <td>Организация машиностроительного производства</td>
-            <td>2019-2023</td>
-            <td>Диплом +переквалификация на инвестиции</td>
-        </tr>
-        <tr>
-            <td>ИЕНИМ</td>
-            <td>Компьютерные науки</td>
-            <td>2023-2024</td>
-            <td>2 месяца обучения, не понравилось</td>
-        </tr>
-         <tr>
-            <td>СТИ</td>
-            <td>Экспертиза и инвестиции в строительстве</td>
-            <td>2024-по настояшее время</td>
-            <td>1ый семестр закрыт на 4/5, на 2ом семестре разочарование</td>
-        </tr>
-    </table>
 
-     <hr size="3" color="#375073">
-    
-    <form action="/">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя">
+        <h2>Путь изучения WEB</h2>
+        <a href="Target_WEB.html">Перейти на страницу</a>
 
         <br>
-
-         <label for="email">Ваш email:</label>
-        <input type="text" id="email" placeholder="Введите email">
-        
-        <br>
-
-        <label for="gay">Вы гей?</label>
-        <input type="checkbox" id="gay" placeholder="ДА">
-
-    <br>
-
-        <input type="submit">
-    </form>
-
-    <hr size="3" color="#375073">
-
-    <h2>Путь изучения WEB</h2>
-    <a href="Target_WEB.html">Перейти на страницу</a>
-
-    <br>
     
+        <div class="box-model">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="position">
+            <div class="box">
+
+            </div>
+        </div>
+
+        <div style="margin-bottom: 500px;"></div>
+         
 </body>
 </html>
