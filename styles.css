@@ -92,6 +92,11 @@ body {
     .bg-red {
         background: #ffe5e5;
     }
+
+     .bg-blue {
+        background: #acbafa;
+    }
+
     .card h2 {
         margin-bottom: 8px;
     }
